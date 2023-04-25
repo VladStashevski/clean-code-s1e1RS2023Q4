@@ -1,44 +1,54 @@
 /* Basic Style */
+
 body {
   background-color: #f8f8f8;
   color: #333;
   font-family: "Lato", sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__image {
   width: 100%;
 }
+
 .header__link {
   font-family: "Lato", sans-serif;
 }
+
 .container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .tasks {
   margin:0;
   padding: 0px;
 }
+
 .task_list {
   list-style: none;
 }
+
 .add-item__input,
 .task_check,
 .task_input,
 .btn {
   outline: none;
 }
+
 .btn {
   background: none;
   border: 0;
@@ -48,9 +58,11 @@ body {
   font-family: "Lato", sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .task_title {
   color: #333;
@@ -61,6 +73,7 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
+
 .add-item__input,
 .task_input {
   margin: 0;
@@ -74,22 +87,29 @@ body {
   font-family: "Lato", sans-serif;
   color: #888;
 }
+
 .add-item__input:focus,
 .task_input:focus {
   color: #333;
 }
+
 /* New Task */
+
 .add-item__wrapper {
   display: flex;
 }
+
 .add-item__title {
   display: block;
   margin: 0 0 20px;
 }
+
 .add-item__input {
   width: 318px;
 }
+
 /* Task list */
+
 .task_list {
   overflow: hidden;
   padding: 20px 0;
@@ -98,47 +118,60 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .task_list > * {
   vertical-align: middle;
 }
+
 .task_check {
   margin: 0 10px;
 }
+
 .task_label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task_input {
   width: 226px;
 }
+
 .delete-image {
   height: 2em;
   transform: rotatez(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-image:hover {
   transform: rotatez(0);
 }
+
 /* Completed */
+
 #completed__tasks .task_label {
   text-decoration: line-through;
   color: #888;
 }
+
 /* Edit Task */
 .task_input {
   display: none;
 }
+
 .edit-mode .task_input {
   display: inline-block;
   width: 224px;
 }
+
 .edit-mode .task_label  {
   display: none;
 }
+
 /* Media Queries */
 @media (max-width:768px) { 
+
   .header { 
     text-align: center;
 }
