@@ -33,7 +33,7 @@ body {
 }
 
 .tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
@@ -111,15 +111,15 @@ body {
   border-bottom: 1px solid #eee;
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
 }
 
 .task-list > * {
-  vertical-align:middle;
+  vertical-align: middle;
 }
 
 .task-check {
-  margin:0 10px
+  margin: 0 10px
 }
 
 .task-label {
@@ -165,7 +165,7 @@ body {
 
 /* Media Queries */
 @media (max-width:768px) { 
-  
+
   .header { 
     text-align: center;
 }
