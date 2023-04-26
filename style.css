@@ -43,7 +43,8 @@ body {
 
 .add-item__input,
 .task-check,
-.task-input, .btn {
+.task-input, 
+.btn {
   outline: none;
 }
 
@@ -72,7 +73,8 @@ body {
   text-transform: uppercase;
 }
 
-.add-item__input, .task-input {
+.add-item__input, 
+.task-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -159,12 +161,12 @@ body {
   width: 224px;
 }
 
-.edit-mode .task-label  {
+.edit-mode .task-label {
   display: none;
 }
 
 /* Media Queries */
-@media (max-width:768px) { 
+@media (max-width:768px) {
 
   .header { 
     text-align: center;
