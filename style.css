@@ -119,18 +119,18 @@ body {
 }
 
 .task-check {
-  margin: 0 10px
+  margin: 0 10px;
 }
 
 .task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px
+  width: 226px;
 }
 
 .task-input {
-  width: 226px
+  width: 226px;
 }
 
 .delete-img {
