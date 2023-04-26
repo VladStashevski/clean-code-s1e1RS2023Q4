@@ -1,9 +1,8 @@
 /* Basic Style */
-
 body {
   background-color: #f8f8f8;
   color: #333;
-  font-family: "Lato", sans-serif;
+  font-family:"Lato", sans-serif;
 }
 
 .header {
@@ -44,8 +43,7 @@ body {
 
 .add-item__input,
 .task-check,
-.task-input,
-.btn {
+.task-input, .btn {
   outline: none;
 }
 
@@ -74,8 +72,7 @@ body {
   text-transform: uppercase;
 }
 
-.add-item__input,
-.task-input {
+.add-item__input, .task-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -94,7 +91,6 @@ body {
 }
 
 /* New Task */
-
 .add-item__wrapper {
   display: flex;
 }
@@ -109,33 +105,32 @@ body {
 }
 
 /* Task list */
-
 .task-list {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items:center;
 }
 
 .task-list > * {
-  vertical-align: middle;
+  vertical-align:middle;
 }
 
 .task-check {
-  margin: 0 10px;
+  margin:0 10px
 }
 
 .task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px;
+  width: 226px
 }
 
 .task-input {
-  width: 226px;
+  width: 226px
 }
 
 .delete-img {
@@ -149,7 +144,6 @@ body {
 }
 
 /* Completed */
-
 #completed__tasks .task-label {
   text-decoration: line-through;
   color: #888;
@@ -171,7 +165,6 @@ body {
 
 /* Media Queries */
 @media (max-width:768px) { 
-
   .header { 
     text-align: center;
 }
